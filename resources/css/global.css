@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+@keyframes @menu-open {
+    from {font-size: 0pt;}
+    to {font-size: 16pt;}
+}
+
+@-webkit-keyframes @menu-open {
+    from {font-size: 0pt;}
+    to {font-size: 16pt;}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+#wrapper {
+	margin: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #FFFFFF;
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Vidaloka', serif;
+	font-size: 36pt;
+	color: #000000;
+}
+
+nav {
+	border-top-style: double;
+	border-top-width: 2px;
+	border-bottom-style: double;
+	border-bottom-width: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+nav ul {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li {
+	text-align: center;
+	list-style: none;
+	list-style-type: none;
+	color: #000000;
+}
+
+nav ul li a {
+	font-size: 16pt;
+	text-decoration: none;
+	font-family: 'Bree Serif', serif;
+	color: #000000;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.fa-bars {
+	font-size: 16pt;
+	color: #000000;
+	text-align: center;
+}
+
+main {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+main h1, main h2, main h3, main h4 {
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+}
+
+main p {
+	font-size: 14pt;
+	margin-bottom: 10px;
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+}
+
+main p a, main ul a, main ol a, footer p a {
+	background-image: linear-gradient(to right, #000000 75%, transparent 75%);
+	text-shadow:
+    -1px -1px #FFFFFF,
+    -1px 1px #FFFFFF,
+    1px -1px #FFFFFF,
+    1px 1px #FFFFFF;
+	background-position: 0 1.10em;
+	background-repeat: repeat-x;
+	background-size: 8px 2px;
+	text-decoration: none;
+	color: #000000;
+}
+
+a.currentPage {
+	text-decoration: underline;
+}
+
+main li {
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+	font-size: 14pt;
+	list-style-position: inside;
+}
+
+main .img-container.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main .img-container img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main .img-container p {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 16pt;
+	font-family: 'Noto Serif', serif;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+    border-bottom-color: #000000;
+	color: #000000;
+}
+
+main form {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+    border-bottom-color: #000000;
+	border-top-style: solid;
+	border-top-width: 2px;
+    border-top-color: #000000;
+	color: #000000;
+}
+
+main form label {
+	font-size: 14pt;
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+}
+
+main form input[type=submit] {
+	font-size: 14pt;
+	padding: 3px 3px 3px 3px;
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+}
+
+main form input[type=text] {
+	font-size: 12pt;
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+}
+
+main form textarea {
+	font-size: 12pt;
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+}
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top-style: double;
+	border-top-width: 2px;
+    border-top-color: #000000;
+}
+
+footer p {
+	text-align: center;
+	font-size: 16pt;
+	font-family: 'Noto Serif', serif;
+	color: #000000;
+}
+
+#bg-left {
+	position: fixed;
+	background-image: url("../img/wave-tile.png");
+	height: 100vh;
+	width: 100px;
+	left: 0;
+	z-index: -1;
+}
+
+#bg-right {
+	transform: scaleX(-1);
+	background-image: url("../img/wave-tile.png");
+	height: 100vh;
+	width: 100px;
+	position: fixed;
+	right: 0;
+	z-index: -1;
+}

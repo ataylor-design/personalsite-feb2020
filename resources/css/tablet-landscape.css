@@ -1,0 +1,29 @@
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	#wrapper {
+		width: 720px;
+	}
+	
+	main .img-container img {
+		max-width: 600px;
+	}
+	
+	main form {
+		width: 600px;
+	}
+	
+	#menuicon {
+		display: none;
+	}
+	
+	nav ul {
+		display: grid;
+		grid-gap: 10px;
+		grid-auto-flow: column;
+	}
+	
+	nav ul li {
+		display: inline-grid;
+		align-self: center;
+	}
+	
+}

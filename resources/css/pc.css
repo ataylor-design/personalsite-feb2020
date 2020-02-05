@@ -1,0 +1,38 @@
+@media (min-width: 1280px) {
+	#wrapper {
+		width: 1200px;
+	}
+	
+	main .img-container img {
+		max-width: 500px;
+	}
+	
+	main form {
+		width: 800px;
+	}
+	
+	main .img-container.left {
+		float: left;
+		margin-right: 20px;
+	}
+
+	main .img-container.right {
+		float: right;
+		margin-left: 20px;
+	}
+	
+	#menuicon {
+		display: none;
+	}
+	
+	nav ul {
+		display: grid;
+		grid-gap: 10px;
+		grid-auto-flow: column;
+	}
+	
+	nav ul li {
+		display: inline-grid;
+		align-self: center;
+	}
+}

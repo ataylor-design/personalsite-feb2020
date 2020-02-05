@@ -1,0 +1,36 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+	#wrapper {
+		width: 720px;
+	}
+	
+	main .img-container img {
+		max-width: 600px;
+	}
+	
+	main form {
+		width: 600px;
+	}
+	
+	#bg-left, #bg-right {
+		display: none;
+	}
+	
+	main .img-container.left {
+		float: left;
+		margin-right: 20px;
+	}
+
+	main .img-container.right {
+		float: right;
+		margin-left: 20px;
+	}
+	
+	nav ul li {
+		display: block;
+	}
+	
+	.menuItem {
+		display: none;
+	}
+	
+}

@@ -1,0 +1,28 @@
+body, #wrapper {
+	background-color: #000000;
+}
+
+header h1, 
+nav ul li a, 
+main p, 
+main h1, 
+main h2, 
+main h3, 
+main h4, 
+footer p, 
+main form label, 
+main .img-container p, 
+#bg-right, 
+#bg-left, 
+#menuicon {
+	filter: invert(1);
+}
+
+nav, main form {
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+}
+
+footer {
+	border-top-color: #FFFFFF;
+}
