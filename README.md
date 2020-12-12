@@ -1,4 +1,2 @@
-# personal - css review
-CSS code and resources for my personal site. Modified to sample text & images, and simple scripting for easier review for those unfamilliar with PHP, as my live website uses a lot of PHP scripting. Night mode and copyright years will not work without the website being on a host or otherwise being able to use PHP functionality; please keep this in mind when reviewing the site.
-
-This repository does not include code or functionality for IMG_VIEWER.
+# Personal Site - Feburary 2020
+Code and resources for my personal site from ~ Feburary 2020. Site has been redesigned since then; code is here for review and archival purposes. Modified to sample text & images, and simple scripting for easier review.
